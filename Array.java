@@ -4,7 +4,7 @@ class Array
 {
 public static void main(String args[])
 {
-int n[]={2,3,5,7,9,4,6};
+int n[]=3,2,5,8,7,9};
 int k=2;
 int sum=0;
 for(int i=0;i<k;i++)
