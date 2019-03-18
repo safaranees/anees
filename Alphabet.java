@@ -8,7 +8,7 @@ class Aon
 		char aon1=aon.next().charAt(0);
 		if((aon1>'a' && aon1<'z') || (aon1>'A' && aon1>'Z'))
 		{
-			System.out.println("alphabet");
+			System.out.println("Alphabet");
 		}
 		else
 		{
