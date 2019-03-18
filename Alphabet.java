@@ -1,17 +1,19 @@
 import java.io.*;
 import java.util.*;
-class Alphabet
+class Aon
 {
-public static void main(String args[])
-{
-char a=0;
-if(a==0 || a==1||a==2||a==3||a==4||a==5||a==6||a==7||a==8||a==9)
-{
- System.out.print("it is number");
+	public static void main(String args[])
+ {
+		Scanner  aon=new Scanner(System.in);
+		char aon1=aon.next().charAt(0);
+		if((aon1>'a' && aon1<'z') || (aon1>'A' && aon1>'Z'))
+		{
+			System.out.println("alphabet");
+		}
+		else
+		{
+			System.out.println("It is not a alaphabet");
+		}
+	}
 }
-else
-{
- System.out.println("it is alphabet");
-}
-}
-}
+			
