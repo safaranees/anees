@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
-class Sum
+class Sum08
 {
 	public static void main(String args[])
 	{
-		Scanner num=new Scanner(System.in);
-		int num1=num.nextInt();
+		Scanner s=new Scanner(System.in);
+		int num=s.nextInt();
 		int sum=0;
-		for(int i=0;i<=num1;i++)
+		for(int i=0;i<=num;i++)
 		{
 			sum=sum+i;
 		}
