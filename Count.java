@@ -1,17 +1,17 @@
 import java.io.*;
 import java.util.*;
-class Count
+class CountDigit
 {
- public static void main(string args[])
- {
-Scanner s=new Scanner();
-int a[]=new int[10];
-int i,a;
-a[i]={2,4,6,8,1,3,5};
-for(i=0;i<a[i].length;i++);
-{
-a=a[i].length;
-}
-System.out.println(a);
-}
+	public static void main(String args[])
+	{
+		Scanner digit=new Scanner(System.in);
+		int num=digit.nextInt();
+		int count=0;
+		while(num!=0)
+		{
+			num= num/10;
+			++count;
+		}
+		System.out.println(count);
+	}
 }
