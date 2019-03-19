@@ -8,11 +8,11 @@ class LeapYear
 		int leap=year.nextInt();
 	           	if(((leap%4==0) && (leap%100!=0)) || (leap%400==0))
 		{
-			System.out.println("It is leap year");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("It is not a leap year");
+			System.out.println("no");
 		}
 	}
 }
