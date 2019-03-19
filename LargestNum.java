@@ -4,7 +4,6 @@ class LargestNum
 {
 	public static void main(String args[])
 	{
-		System.out.println("enter the numbers");
 		Scanner num=new Scanner(System.in);
 		int num1=num.nextInt();
 		int num2=num.nextInt();
